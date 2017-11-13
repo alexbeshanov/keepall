@@ -1,0 +1,1 @@
+export let key_gost = "lkmsdofijw9uri4oikpw934385u4owe2";

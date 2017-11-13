@@ -1,0 +1,331 @@
+.newobjects {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.newobjects a {
+    text-decoration: none;
+}
+
+.newobjects button {
+    border: none;
+    text-decoration: none;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.newobjects:hover button {
+    background-color: white;
+    border: solid 1px white;
+    transition: 0.5s;
+    box-shadow: 4px 4px 4px black;
+}
+
+.newobjects label {
+    border: none;
+    text-decoration: none;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.newobjects:hover label {
+    background-color: white;
+    border: solid 1px white;
+    transition: 0.5s;
+    box-shadow: 4px 4px 4px black;
+}
+
+.newobjects-link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px black;
+}
+
+.newobjects-link__button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px black;
+}
+
+.newobjects_button_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.newobjects_button_style h1 {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 28px;
+}
+
+.newobjects_button_style_img {
+    background-image: url("../img/plus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+}
+
+.list_data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.file-object {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.file-object a {
+    text-decoration: none;
+}
+
+.file-object_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border: none;
+    text-decoration: none;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    transition: 0.5s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.file-object_label h1 {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 24px;
+}
+
+.file-object_button {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.file-object_download {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    transition: 0.5s;
+    background-color: green;
+    opacity: 0.5;
+    border-bottom-left-radius: 10px;
+}
+
+.file-object_delete {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    transition: 0.5s;
+    background-color: red;
+    opacity: 0.5;
+    border-bottom-right-radius: 10px;
+}
+
+.file-object_download:hover {
+    background-color: green;
+    border: solid 1px green;
+    transition: 0.5s;
+    box-shadow: -4px 4px 4px black;
+}
+
+.file-object_delete:hover {
+    background-color: red;
+    border: solid 1px red;
+    transition: 0.5s;
+    box-shadow: 4px 4px 4px black;
+}
+
+@media screen and (max-width: 1440px) {
+    .newobjects {
+        width: 120px;
+        height: 120px;
+        margin: 2%;
+    }
+
+    .newobjects_button_style {
+        width: 120px;
+        height: 120px;
+    }
+
+    .newobjects_button_style_img {
+        background-size: 60px 60px;
+    }
+
+    .newobjects_button_style h1 {
+        font-size: 20px;
+    }
+
+    .file-object {
+        width: 120px;
+        height: 120px;
+        margin: 2%;
+    }
+
+    .file-object_label h1 {
+        font-size: 20px;
+    }
+
+    .file-object_button h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .newobjects {
+        width: 100px;
+        height: 100px;
+        margin: 3%;
+    }
+
+    .newobjects_button_style {
+        width: 100px;
+        height: 100px;
+    }
+
+    .newobjects_button_style_img {
+        background-size: 50px 50px;
+    }
+
+    .newobjects_button_style h1 {
+        font-size: 18px;
+    }
+
+    .file-object {
+        width: 100px;
+        height: 100px;
+        margin: 3%;
+    }
+
+    .file-object_label h1 {
+        font-size: 18px;
+    }
+
+    .file-object_button h3 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .newobjects {
+        width: 80px;
+        height: 80px;
+        margin: 4%;
+    }
+
+    .newobjects_button_style {
+        width: 80px;
+        height: 80px;
+    }
+
+    .newobjects_button_style_img {
+        background-size: 40px 40px;
+    }
+
+    .newobjects_button_style h1 {
+        font-size: 16px;
+    }
+
+    .file-object {
+        width: 80px;
+        height: 80px;
+        margin: 4%;
+    }
+
+    .file-object_label h1 {
+        font-size: 16px;
+    }
+
+    .file-object_button h3 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .newobjects {
+        width: 50px;
+        height: 50px;
+        margin: 5%;
+    }
+
+    .newobjects_button_style {
+        width: 50px;
+        height: 50px;
+    }
+
+    .newobjects_button_style_img {
+        background-size: 25px 25px;
+    }
+
+    .newobjects_button_style h1 {
+        font-size: 14px;
+    }
+
+    .file-object {
+        width: 50px;
+        height: 50px;
+        margin: 5%;
+    }
+
+    .file-object_label h1 {
+        font-size: 14px;
+    }
+
+    .file-object_button h3 {
+        font-size: 6px;
+    }
+}
